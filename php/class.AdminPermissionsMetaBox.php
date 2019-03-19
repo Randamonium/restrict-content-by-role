@@ -169,7 +169,7 @@ class AdminPermissionsMetaBox {
 				</p>
 				<p class="field-description">
 					<?php
-						printf( esc_html__( 'Choose the User Role(s) that you wish to restrict. %sNote:%s You cannot restrict administrators.', MKDO_RCBR_TEXT_DOMAIN ), '<strong>', '</strong>' );
+						printf( esc_html__( 'Choose the User Role(s) that you only want to able to view this content. %sNote:%s You cannot restrict administrators.', MKDO_RCBR_TEXT_DOMAIN ), '<strong>', '</strong>' );
 					?>
 				</p>
 				<?php if( count( $roles ) > 0 ) { ?>

@@ -133,7 +133,7 @@ class PublicAccess {
 					$mkdo_rcbr_roles = array();
 				}
 				foreach ( $roles as $key => $role ) {
-					if ( in_array( $role, $mkdo_rcbr_roles ) ) {
+					if ( ! in_array( $role, $mkdo_rcbr_roles ) ) {
 						$has_access = true;
 						break;
 					}

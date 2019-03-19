@@ -172,7 +172,7 @@ class PermissionsMetaBox {
 				</p>
 				<p class="field-description">
 					<?php
-						esc_html_e( 'Choose the User Role(s) that you wish to restrict.', MKDO_RCBR_TEXT_DOMAIN );
+						esc_html_e( 'Choose the User Role(s) you only want to able to view this content.', MKDO_RCBR_TEXT_DOMAIN );
 					?>
 				</p>
 				<?php if( count( $roles ) > 0 ) { ?>
